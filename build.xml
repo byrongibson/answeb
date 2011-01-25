@@ -22,10 +22,10 @@
     <import file="${appengine.sdk}/config/user/ant-macros.xml"/>
 
     <!-- Remote debug port for dev_appserver -->
-    <property name="debug.port" value="5005"/>
+    <property name="debug.port" value="5555"/>
 
     <!-- HTTP port for dev_appserver -->
-    <property name="http.port" value="8080"/>
+    <property name="http.port" value="8888"/>
 
     <!-- Name of log file to write logs to -->
     <property name="log.file" value="app.log"/>
